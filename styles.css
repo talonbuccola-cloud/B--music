@@ -148,6 +148,19 @@ main{max-width:1100px; margin:0 auto; padding:24px 18px 60px}
   width: 100%;
   border-radius: 12px;
 }
+.spotify-embed{
+  width:100%;
+  border:0;
+  border-radius:12px;
+  display:block;
+}
+
+/* Optional: add consistent padding + subtle inner frame */
+.card .spotify-embed{
+  margin-top:12px;
+  background: rgba(255,255,255,.03);
+  padding: 0; /* keep 0; iframe doesn’t really use padding, but background can help */
+}
 
 @media (max-width: 860px){
   .hero{grid-template-columns: 1fr; padding:18px}
